@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <>    <h1>Talha Arif</h1>
+    <>    <h1>Welcome Talha Arif</h1>
     <div className={styles.page}>
       <main className={styles.main}>
         <Image

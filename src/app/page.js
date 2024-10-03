@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
+    <>    <h1>Talha Arif</h1>
     <div className={styles.page}>
       <main className={styles.main}>
         <Image
@@ -15,7 +16,7 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing <code>src/app/page.js</code>.
+            Hello <code>src/app/page.js</code>.
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
@@ -91,5 +92,8 @@ export default function Home() {
         </a>
       </footer>
     </div>
+    <footer>Keep it up!</footer>
+    </>
+
   );
 }
